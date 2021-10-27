@@ -1,7 +1,7 @@
 timezone:    Europe/Berlin
 future:      false
 # Set baseurl to the base path of the site eg "/mytalk"
-baseurl:     "/github-slideshow"
+# baseurl:     "/github-slideshow"
 # The allowed values are 'rouge', 'pygments' or null.
 highlighter: rouge
 # markdown - Valid options are [ maruku | rdiscount | kramdown | redcarpet ]
@@ -26,7 +26,7 @@ sass:
 
 ## solarized variant (dark/light)
 solarized:
-  theme:     dark
+  theme:     slate
 
 slideNumber:
   # Slide number formatting can be configured using these variables:
@@ -114,3 +114,5 @@ exclude: [
   "reveal.js/LICENSE",
   "reveal.js/package.json"
 ]
+
+theme: jekyll-theme-slate
